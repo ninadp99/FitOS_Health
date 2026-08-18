@@ -118,55 +118,53 @@
 
 <div align="center">
 
-### 🎯 Complete Onboarding Flow
-<div>
-  <img width="32%" src="screenshots/01-onboarding-step1-name.png" alt="Step 1: Name">
-  <img width="32%" src="screenshots/02-onboarding-step2-fitness-goal.png" alt="Step 2: Goal">
-  <img width="32%" src="screenshots/03-onboarding-step3-body-measurements.png" alt="Step 3: Measurements">
-</div>
+### 🎯 Onboarding Flow (7 Steps)
+**Get personalized in 7 easy steps** — Complete your profile and start your fitness journey
 
-**Get personalized in 7 easy steps** — name, goals, body metrics, activity level, equipment, workout frequency, and dietary preferences.
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin: 20px 0;">
+  <img width="100%" src="screenshots/01-onboarding-step1-name.png" alt="Step 1: Name">
+  <img width="100%" src="screenshots/02-onboarding-step2-fitness-goal.png" alt="Step 2: Goal">
+  <img width="100%" src="screenshots/03-onboarding-step3-body-measurements.png" alt="Step 3: Measurements">
+  <img width="100%" src="screenshots/04-onboarding-step4-activity-level.png" alt="Step 4: Activity">
+  <img width="100%" src="screenshots/05-onboarding-step5-equipment.png" alt="Step 5: Equipment">
+  <img width="100%" src="screenshots/06-onboarding-step6-workout-frequency.png" alt="Step 6: Frequency">
+  <img width="100%" src="screenshots/07-onboarding-step7-dietary-preferences.png" alt="Step 7: Diet">
+  <img width="100%" src="screenshots/08-onboarding-complete-ready.png" alt="Complete: Ready">
+</div>
 
 ---
 
-### 🏠 Dashboard with AI Coach
-<div>
-  <img width="100%" src="screenshots/10-home-dashboard-ai-coach.png" alt="Dashboard">
-</div>
+### 🏠 Main Dashboard
+**Your AI-powered health command center**
 
-**Your daily health command center** — AI-powered greeting, nutrition tracking, water intake, sleep monitoring, and quick workout access. All powered by Groq AI.
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 20px 0;">
+  <img width="100%" src="screenshots/10-home-dashboard-ai-coach.png" alt="Home Dashboard">
+  <img width="100%" src="screenshots/09-progress-screen.png" alt="Progress Screen">
+</div>
 
 ---
 
-### 📈 Progress Tracking
-<div>
-  <img width="100%" src="screenshots/09-progress-screen.png" alt="Progress">
-</div>
+### 💪 Workout Features
+**AI-generated plans with detailed guidance**
 
-**Stay motivated** — Track weight, BMI, TDEE, workout streaks, and weekly activity. Visual indicators keep you on target.
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 20px 0;">
+  <img width="100%" src="screenshots/11-workout-duration-selection.png" alt="Duration Selection">
+  <img width="100%" src="screenshots/12-full-body-workout-details.png" alt="Workout Details">
+</div>
 
 ---
 
-### 💪 AI Workout Plans
-<div>
-  <img width="100%" src="screenshots/12-full-body-workout-details.png" alt="Workouts">
-</div>
+### ⚙️ Settings & Configuration
+**Complete control over your AI experience**
 
-**Get moving with confidence** — AI-generated plans with exercise descriptions, form cues, set/rep schemes, and YouTube video links for every exercise.
-
----
-
-### ⚙️ Smart Settings
-<div>
+<div style="display: grid; grid-template-columns: 1fr; gap: 8px; margin: 20px 0;">
   <img width="100%" src="screenshots/13-settings-screen.png" alt="Settings">
 </div>
 
-**Configure your experience** — Groq AI model selection, profile metrics, macro targets, activity level, equipment, and training frequency.
-
 ---
 
-### 📸 See All 13 Screenshots
-[**View Full Gallery →**](screenshots/)
+### 📸 Full Gallery
+All 13 production screenshots organized in the [`/screenshots`](screenshots/) folder
 
 </div>
 
