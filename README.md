@@ -298,17 +298,17 @@ This is a personal project, but suggestions and insights are welcome!
 ## 💬 Feedback
 
 Have questions or ideas? 
-- Open an issue on GitHub
-- Check existing discussions for answers
-- Share your health journey and how FitOS helped!
+- **GitHub Issues**: Open an issue on this repo
+- **GitHub Discussions**: Use the Discussions tab
+- **GitHub Profile**: Visit [@ninadp99](https://github.com/ninadp99)
 
 ---
 
 ## 📞 Contact
 
-- **Email**: ninadp99@gmail.com
 - **GitHub**: [@ninadp99](https://github.com/ninadp99)
 - **Project**: [FitOS_Health](https://github.com/ninadp99/FitOS_Health)
+- **Report Issues**: Use GitHub Issues for bug reports and feature requests
 
 ---
 
