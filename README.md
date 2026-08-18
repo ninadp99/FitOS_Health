@@ -120,20 +120,46 @@
 
 ## 📱 Screenshots
 
-### Dashboard
-*Your daily health overview at a glance*
+<div align="center">
 
-### Nutrition & Food Analysis
-*Upload meal photos for instant AI-powered nutrition analysis*
+### Onboarding Flow
+Get started in 7 simple steps - personalized for your goals, body, and lifestyle.
 
-### Workout Planning
-*AI-generated personalized workout plans with video guides*
+![Onboarding Step 1](screenshots/01-onboarding-step1-name.png) ![Fitness Goal](screenshots/02-onboarding-step2-fitness-goal.png) ![Body Info](screenshots/03-onboarding-step3-body-measurements.png)
+
+---
+
+### Dashboard with AI Coach
+Your daily health overview powered by Groq AI. See nutrition, water intake, sleep, and workout status at a glance.
+
+![Dashboard](screenshots/10-home-dashboard-ai-coach.png)
+
+---
 
 ### Progress Tracking
-*Monitor your health journey with detailed metrics and streaks*
+Monitor weight, BMI, streaks, and achievements. Stay motivated with visual progress indicators.
 
-### Settings
-*Manage your profile and preferences*
+![Progress](screenshots/09-progress-screen.png)
+
+---
+
+### AI Workout Planning
+Get personalized workout plans with exercise descriptions, form cues, and YouTube video tutorials.
+
+![Workout Details](screenshots/12-full-body-workout-details.png)
+
+---
+
+### Settings & Configuration
+Manage your Groq AI models, profile metrics, macros, and app preferences.
+
+![Settings](screenshots/13-settings-screen.png)
+
+---
+
+</div>
+
+**Explore all screenshots in the [`/screenshots`](screenshots/) folder**
 
 ---
 
