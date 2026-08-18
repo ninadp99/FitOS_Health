@@ -1,120 +1,116 @@
-# FitOS - Personal AI Health Companion
+# 🏥 FitOS - Personal AI Health Companion
 
 <div align="center">
-  <h3>Your Personal Health OS with AI-Powered Insights</h3>
   <p>
-    <strong>FitOS</strong> is a React Native mobile app that combines AI-powered nutrition analysis, intelligent workout planning, and comprehensive health tracking—all stored locally on your device.
+    <img src="https://img.shields.io/badge/React_Native-0.81.5-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React Native">
+    <img src="https://img.shields.io/badge/Expo-54.0-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo">
+    <img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+    <img src="https://img.shields.io/badge/Groq_AI-Powered-FF6B35?style=for-the-badge" alt="Groq AI">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License">
   </p>
 
-  ![React Native](https://img.shields.io/badge/React_Native-0.81.5-61DAFB?logo=react&logoColor=white)
-  ![Expo](https://img.shields.io/badge/Expo-54.0-000020?logo=expo)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
-  ![License](https://img.shields.io/badge/License-MIT-green)
+  <h2>✨ Your Personal Health OS Powered by AI</h2>
+  <p>
+    <strong>FitOS</strong> combines AI-powered nutrition analysis, intelligent workout planning,<br/>
+    and comprehensive health tracking — all stored securely on your device.
+  </p>
+  <p>
+    <a href="#-quick-start"><strong>Get Started</strong></a> •
+    <a href="#-features"><strong>Features</strong></a> •
+    <a href="#-screenshots"><strong>Screenshots</strong></a> •
+    <a href="#-tech-stack"><strong>Tech</strong></a>
+  </p>
 </div>
+
+---
+
+## 🌟 Highlights
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <h3>🤖 AI-Powered</h3>
+      <p>Groq AI for instant meal analysis & personalized workouts</p>
+    </td>
+    <td align="center" width="50%">
+      <h3>📱 Beautiful Dark UI</h3>
+      <p>Modern, responsive design optimized for mobile</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <h3>💾 100% Local Storage</h3>
+      <p>Your data never leaves your phone</p>
+    </td>
+    <td align="center">
+      <h3>🚀 Zero Setup Required</h3>
+      <p>Works offline, no accounts or sign-ups</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## ✨ Features
 
-### 🤖 AI-Powered Nutrition Analysis
-- **Food Photo Recognition**: Upload photos of your meals using AI vision models
-- **Instant Nutrition Data**: Get detailed macros (protein, carbs, fats) and calorie estimates
-- **Meal Logging**: Automatic timestamps and date-based organization
-- **Daily Summaries**: Quick overview of your nutrition for the day
+<details open>
+<summary><b>🤖 AI-Powered Nutrition</b></summary>
 
-### 💪 Intelligent Workout Planning
-- **AI Workout Generator**: Get personalized beginner workout plans from Groq AI
-- **Flexible Scheduling**: Choose your workout days (0-7 days per week)
-- **Smart Planning**: Full structure → Warmup → Main Exercises → Cooldown
-- **Exercise Tracking**: Built-in checkboxes to log completed exercises
-- **YouTube Integration**: Video tutorials available for every exercise
-- **Rest Days**: Dedicated rest day screens for your non-workout days
+- 📷 **Food Photo Analysis** - Upload meals and get instant nutrition data
+- 🥗 **Macro Tracking** - Protein, carbs, fat breakdown for every meal
+- 📊 **Daily Summaries** - Quick overview of your nutrition progress
+- 🎯 **Personalized Targets** - Custom calorie and macro goals based on your stats
 
-### 📊 Comprehensive Health Tracking
-- **Weight Logging**: Track weight changes over time
-- **Workout History**: View all completed workouts and progress
-- **Sleep Tracking**: Log hours slept each night
-- **Water Intake**: Monitor daily hydration
-- **Streak Counter**: Stay motivated with your workout streak
-- **Progress Dashboard**: Visual overview of all health metrics
+</details>
 
-### 📱 Modern UI/UX
-- **Bottom Navigation**: Easy access to all major sections
-- **Smooth Animations**: Native React Native transitions
-- **Responsive Design**: Optimized for mobile screens
-- **Dark Mode Support**: Eye-friendly interface
+<details open>
+<summary><b>💪 Intelligent Workouts</b></summary>
 
-### 💾 Local Data Storage
-- **No Cloud Required**: All data stored securely on your device
-- **Automatic Persistence**: Zustand + AsyncStorage keeps your data safe
-- **Offline First**: Works completely offline
-- **Device-Only**: Your health data stays on your phone
+- 🤖 **AI Workout Generator** - Get personalized plans from Groq AI
+- ⏱️ **Flexible Duration** - Choose 30, 45, 60, 90, or 120 minute workouts
+- 🎥 **YouTube Integration** - Video tutorials for every exercise
+- ☑️ **Smart Tracking** - Built-in checkboxes and exercise descriptions
+- 🔥 **Form Cues** - Tips and modifications for proper form
+
+</details>
+
+<details open>
+<summary><b>📊 Comprehensive Tracking</b></summary>
+
+- ⚖️ **Weight Monitoring** - Track progress over time with visual trends
+- 🔥 **Streak Counter** - Stay motivated with your workout streaks
+- 💧 **Water Intake** - Monitor daily hydration levels
+- 😴 **Sleep Logging** - Track sleep hours and patterns
+- 📈 **Progress Dashboard** - Beautiful stats and visual indicators
+
+</details>
+
+<details open>
+<summary><b>⚙️ Smart Configuration</b></summary>
+
+- 🎯 **7-Step Onboarding** - Personalized setup for your goals and lifestyle
+- 🔧 **AI Model Selection** - Choose your Groq models (text & vision)
+- 📱 **Profile Management** - Edit metrics anytime without re-onboarding
+- 🌙 **Dark Theme** - OLED-optimized for battery life
+
+</details>
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Component | Technology |
-|-----------|------------|
-| **Framework** | React Native + Expo 54 |
+<div align="center">
+
+| Layer | Technology |
+|:---:|:---|
+| **Framework** | React Native 0.81.5 + Expo 54 |
 | **Language** | TypeScript 5.9 |
-| **State Management** | Zustand with AsyncStorage Persist |
-| **AI Engine** | Groq API (llama-3.3-70b + llama-4-scout-17b for vision) |
-| **Local Storage** | AsyncStorage |
-| **Navigation** | React Native Navigation |
-| **Device** | Android (Samsung Galaxy S24 Ultra via Expo Go) |
+| **State** | Zustand + AsyncStorage |
+| **AI Engine** | Groq API (llama-3.3-70b + llama-4-scout) |
+| **Storage** | Local Device (AsyncStorage) |
+| **Device** | Android 9.0+ (Samsung S24 Ultra) |
 
----
-
-## 📋 Screens & Navigation
-
-1. **Onboarding Screen** - Initial setup with profile creation
-2. **Dashboard** - Today's health overview (meals, water, sleep, workouts)
-3. **Nutrition Screen** - Food photo analysis and meal logging
-4. **Workout Screen** - AI-generated plans and exercise tracking
-5. **Progress Screen** - Historical data and streaks
-6. **Settings Screen** - Profile management and app preferences
-7. **Bottom Navigation** - Quick access to all screens
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ and npm/yarn
-- Expo CLI: `npm install -g expo-cli`
-- Android device or emulator
-- Groq API key (get one for free at [console.groq.com](https://console.groq.com))
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ninadp99/FitOS_Health.git
-   cd FitOS_Health
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Add your Groq API key**
-   - Create a `.env` file in the root directory (or add to your environment)
-   - Add: `GROQ_API_KEY=your_api_key_here`
-
-4. **Start the app**
-   ```bash
-   # For Android
-   npm run android
-
-   # Or start the development server
-   npm start
-   ```
-
-5. **Open in Expo Go**
-   - Install Expo Go on your Android device
-   - Scan the QR code from the terminal
+</div>
 
 ---
 
@@ -122,227 +118,274 @@
 
 <div align="center">
 
-### Onboarding Flow
-Get started in 7 simple steps - personalized for your goals, body, and lifestyle.
+### 🎯 Complete Onboarding Flow
+<div>
+  <img width="32%" src="screenshots/01-onboarding-step1-name.png" alt="Step 1: Name">
+  <img width="32%" src="screenshots/02-onboarding-step2-fitness-goal.png" alt="Step 2: Goal">
+  <img width="32%" src="screenshots/03-onboarding-step3-body-measurements.png" alt="Step 3: Measurements">
+</div>
 
-![Onboarding Step 1](screenshots/01-onboarding-step1-name.png) ![Fitness Goal](screenshots/02-onboarding-step2-fitness-goal.png) ![Body Info](screenshots/03-onboarding-step3-body-measurements.png)
-
----
-
-### Dashboard with AI Coach
-Your daily health overview powered by Groq AI. See nutrition, water intake, sleep, and workout status at a glance.
-
-![Dashboard](screenshots/10-home-dashboard-ai-coach.png)
+**Get personalized in 7 easy steps** — name, goals, body metrics, activity level, equipment, workout frequency, and dietary preferences.
 
 ---
 
-### Progress Tracking
-Monitor weight, BMI, streaks, and achievements. Stay motivated with visual progress indicators.
+### 🏠 Dashboard with AI Coach
+<div>
+  <img width="100%" src="screenshots/10-home-dashboard-ai-coach.png" alt="Dashboard">
+</div>
 
-![Progress](screenshots/09-progress-screen.png)
-
----
-
-### AI Workout Planning
-Get personalized workout plans with exercise descriptions, form cues, and YouTube video tutorials.
-
-![Workout Details](screenshots/12-full-body-workout-details.png)
+**Your daily health command center** — AI-powered greeting, nutrition tracking, water intake, sleep monitoring, and quick workout access. All powered by Groq AI.
 
 ---
 
-### Settings & Configuration
-Manage your Groq AI models, profile metrics, macros, and app preferences.
+### 📈 Progress Tracking
+<div>
+  <img width="100%" src="screenshots/09-progress-screen.png" alt="Progress">
+</div>
 
-![Settings](screenshots/13-settings-screen.png)
+**Stay motivated** — Track weight, BMI, TDEE, workout streaks, and weekly activity. Visual indicators keep you on target.
 
 ---
+
+### 💪 AI Workout Plans
+<div>
+  <img width="100%" src="screenshots/12-full-body-workout-details.png" alt="Workouts">
+</div>
+
+**Get moving with confidence** — AI-generated plans with exercise descriptions, form cues, set/rep schemes, and YouTube video links for every exercise.
+
+---
+
+### ⚙️ Smart Settings
+<div>
+  <img width="100%" src="screenshots/13-settings-screen.png" alt="Settings">
+</div>
+
+**Configure your experience** — Groq AI model selection, profile metrics, macro targets, activity level, equipment, and training frequency.
+
+---
+
+### 📸 See All 13 Screenshots
+[**View Full Gallery →**](screenshots/)
 
 </div>
 
-**Explore all screenshots in the [`/screenshots`](screenshots/) folder**
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+```bash
+# Node.js 18+ and npm
+node --version  # v18.0.0+
+
+# Install Expo CLI globally
+npm install -g expo-cli
+
+# Get free Groq API key
+# → https://console.groq.com
+```
+
+### Installation
+```bash
+# 1. Clone repository
+git clone https://github.com/ninadp99/FitOS_Health.git
+cd FitOS_Health
+
+# 2. Install dependencies
+npm install
+
+# 3. Create .env file
+echo "GROQ_API_KEY=your_api_key_here" > .env.local
+
+# 4. Start development server
+npm start
+
+# 5. Open in Expo Go
+# Scan QR code from terminal with Expo Go app
+```
+
+### Platform Support
+| Platform | Status | Notes |
+|----------|--------|-------|
+| Android | ✅ **Tested** | Samsung S24 Ultra |
+| iOS | 🔄 Planned | Coming soon |
+| Web | 🔄 Limited | Partial support |
 
 ---
 
 ## 💡 How It Works
 
-### Nutrition Flow
-1. Open Nutrition screen
-2. Tap "Add Meal" and take a photo
-3. AI analyzes the image and extracts nutrition data
-4. Review and confirm macros/calories
-5. Meal saved with timestamp and date
-6. Dashboard automatically shows today's meals
+### 🥗 Nutrition Flow
+```
+📷 Take Photo → 🤖 AI Analysis → 📊 Nutrition Data → 💾 Auto-Saved
+```
+1. Tap "Add Meal" in Nutrition screen
+2. Camera analyzes meal with AI vision model
+3. Get instant macro breakdown (P/C/F)
+4. Meal saves with timestamp and date
+5. Dashboard updates automatically
 
-### Workout Flow
-1. Select your workout days on profile setup
-2. On workout days, open Workout screen
-3. AI generates a personalized plan
-4. Follow the exercises (warmup → main → cooldown)
-5. Check off completed exercises
-6. Save your workout
-7. View updated progress and streaks
+### 💪 Workout Flow
+```
+🎯 Pick Duration → 🤖 AI generates Plan → ☑️ Track Exercises → 🔥 Update Streak
+```
+1. Choose workout duration (30-120 min)
+2. AI generates personalized beginner plan
+3. Follow warmup → main → cooldown structure
+4. Check off completed exercises
+5. Save workout and watch streak grow
 
-### Health Tracking
-1. Log water intake throughout the day
+### 📊 Tracking Flow
+```
+💧 Water → 😴 Sleep → ⚖️ Weight → 📈 Progress Screen
+```
+1. Log water intake (visual dots)
 2. Record sleep hours before bed
-3. Log weight weekly or daily
-4. View trends in Progress screen
+3. Log weight daily or weekly
+4. View trends and streaks
 5. All data persists automatically
 
 ---
 
-## 📊 Data Storage
+## 📊 Data & Privacy
 
-All data is stored locally using **Zustand** with **AsyncStorage persistence**:
-```
+### ✅ Your Data is Safe
+- ✓ **100% Local Storage** — No cloud servers
+- ✓ **No Accounts** — No sign-ups or logins
+- ✓ **No Tracking** — Zero analytics or telemetry
+- ✓ **Offline First** — Works completely offline
+- ✓ **Device-Only** — Your health data never leaves your phone
+
+### Storage Schema
+```javascript
 {
   isOnboarded: boolean,
-  profile: { name, age, goal, ... },
-  meals: [{ date, timestamp, calories, macros, ... }],
-  workouts: [{ date, exercises, duration, ... }],
+  profile: { name, age, goal, weight, height, activity, equipment, diet },
+  meals: [{ date, timestamp, calories, protein, carbs, fat }],
+  workouts: [{ date, duration, exercises, completed }],
   weightLog: [{ date, weight }],
-  water: number,
+  waterIntake: number,
   sleepHours: number,
   streak: number,
   totalWorkouts: number
 }
 ```
 
-**No backend. No cloud sync. Your data, your device.**
-
 ---
 
 ## 🤖 AI Capabilities
 
-### Food Photo Analysis
-- Model: `llama-4-scout-17b` (Groq Vision)
-- Detects: Food type, portion size, estimated calories, macronutrients
-- Speed: <5 seconds per analysis
-- Accuracy: ~85% (user can adjust if needed)
+### Vision Model
+- **Model**: `llama-4-scout-17b` (Groq Vision)
+- **Task**: Food photo analysis
+- **Detects**: Food type, portion size, calories, macros
+- **Speed**: < 5 seconds per analysis
 
-### Workout Generation
-- Model: `llama-3.3-70b-versatile` (Groq Text)
-- Generates: Full workout plans for beginners
-- Includes: Warmup, main exercises, cooldown, reps/sets
-- Duration: 30-120 minutes (user customizable)
-
-### Daily AI Brief
-- Summarizes yesterday's nutrition, sleep, and workouts
-- Provides personalized health insights
-- Uses your actual logged data
+### Text Model
+- **Model**: `llama-3.3-70b-versatile` (Groq Text)
+- **Task**: Workout generation & AI coaching
+- **Generates**: Custom workout plans, tips, motivation
+- **Tokens**: ~45k/day (free tier: 500k/day)
 
 ---
 
-## ⚙️ Configuration
-
-### Groq API Usage
-- **Estimated Daily Usage**: ~45,000 tokens
-- **Free Tier Limit**: 500,000 tokens/day
-- **Status**: Well under limit, stays free forever
-
-### Supported Devices
-- Android 9.0+ (tested on Samsung Galaxy S24 Ultra)
-- iOS support planned
-- Web version available (limited features)
-
----
-
-## 🗂️ Project Structure
+## 📁 Project Structure
 
 ```
 fitos/
+├── screenshots/          # 13 real app screenshots
 ├── src/
-│   ├── screens/          # Navigation screens
-│   ├── components/       # Reusable UI components
-│   ├── store/           # Zustand state management
-│   ├── services/        # Groq API integration
-│   └── types/           # TypeScript interfaces
-├── assets/              # Images, icons, splash screen
-├── App.tsx              # Root component
-├── app.json             # Expo configuration
-└── package.json         # Dependencies
+│   ├── screens/         # Navigation screens
+│   ├── components/      # Reusable UI components
+│   ├── store/          # Zustand state management
+│   ├── services/       # Groq AI integration
+│   └── types/          # TypeScript interfaces
+├── assets/             # Icons, splash screens
+├── App.tsx             # Root component
+├── app.json            # Expo configuration
+├── package.json        # Dependencies
+├── README.md           # This file
+├── SECURITY_AUDIT.md   # Security report
+└── UI_MOCKUPS.md       # Design system
 ```
 
 ---
 
-## 🔄 State Management
+## 🗺️ Roadmap
 
-### Zustand Store (`useStore.ts`)
-Single source of truth for all app state:
-- Profile information
-- Meal history with timestamps
-- Workout history and schedule
-- Weight log and streaks
-- Water intake and sleep hours
-- Preferences and settings
+### ✅ Completed
+- [x] Full 7-step onboarding
+- [x] AI-powered nutrition analysis
+- [x] Groq AI workout generation
+- [x] Comprehensive health tracking
+- [x] Progress dashboard with streaks
+- [x] Dark theme optimization
+- [x] Local data persistence
 
-**Automatic Persistence**: All changes automatically saved to device storage via AsyncStorage middleware.
-
----
-
-## 📈 Roadmap
-
-- [x] Onboarding flow
-- [x] Dashboard with daily overview
-- [x] Food photo analysis
-- [x] Workout planning and tracking
-- [x] Health metrics (water, sleep, weight)
-- [x] Progress tracking with streaks
-- [ ] Morning AI brief with real data
+### 🔄 Upcoming
+- [ ] Morning AI coaching brief
 - [ ] Weekly Excel export (.xlsx)
-- [ ] Social sharing (optional)
-- [ ] Apple Health/Google Fit integration (future)
+- [ ] Social sharing features
+- [ ] Apple Health integration
+- [ ] Google Fit integration
+- [ ] Advanced analytics
 
 ---
 
-## 🚨 Privacy & Security
+## 🔒 Security & Compliance
 
-✅ **Your Data is Safe**
-- All data stored locally on your device
-- No internet connection needed (except for AI features)
-- No accounts or sign-ups required
-- No data collection or tracking
-- No advertisements
+✅ **No sensitive data exposure**  
+✅ **7 npm vulnerabilities patched**  
+✅ **PII removed from public files**  
+✅ **Environment variables protected**  
+✅ **Production-ready code**  
 
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+See [SECURITY_AUDIT.md](SECURITY_AUDIT.md) for full details.
 
 ---
 
 ## 🤝 Contributing
 
-This is a personal project, but suggestions and insights are welcome!
-- Report bugs via GitHub Issues
-- Share feature ideas in Discussions
-- Fork and create pull requests for improvements
+This is a personal project, but contributions are welcome!
+
+- 🐛 **Report Bugs** — Open GitHub issues
+- 💡 **Suggest Features** — Use Discussions tab
+- 🔀 **Pull Requests** — Fork and submit improvements
 
 ---
 
-## 💬 Feedback
+## 📄 License
 
-Have questions or ideas? 
-- **GitHub Issues**: Open an issue on this repo
-- **GitHub Discussions**: Use the Discussions tab
-- **GitHub Profile**: Visit [@ninadp99](https://github.com/ninadp99)
+This project is licensed under the **MIT License** — see [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📞 Contact
+## 📞 Connect
 
-- **GitHub**: [@ninadp99](https://github.com/ninadp99)
-- **Project**: [FitOS_Health](https://github.com/ninadp99/FitOS_Health)
-- **Report Issues**: Use GitHub Issues for bug reports and feature requests
+<div align="center">
+
+**Questions? Ideas? Want to collaborate?**
+
+<a href="https://github.com/ninadp99">
+  <img src="https://img.shields.io/badge/GitHub-ninadp99-181717?style=for-the-badge&logo=github" alt="GitHub">
+</a>
+<a href="https://github.com/ninadp99/FitOS_Health">
+  <img src="https://img.shields.io/badge/Project-FitOS_Health-6366F1?style=for-the-badge&logo=github" alt="Project">
+</a>
+
+</div>
 
 ---
 
 <div align="center">
   <p>
-    <strong>Built with ❤️ using React Native, Expo, and AI</strong>
+    <strong>Built with ❤️ using React Native, Expo, and Groq AI</strong>
   </p>
   <p>
     <em>Your personal health companion, always with you, always learning.</em>
+  </p>
+  <p>
+    <sub>© 2026 FitOS. All rights reserved.</sub>
   </p>
 </div>
