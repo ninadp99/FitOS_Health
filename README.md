@@ -118,53 +118,28 @@
 
 <div align="center">
 
-### 🎯 Onboarding Flow (7 Steps)
-**Get personalized in 7 easy steps** — Complete your profile and start your fitness journey
-
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin: 20px 0;">
-  <img width="100%" src="screenshots/01-onboarding-step1-name.png" alt="Step 1: Name">
-  <img width="100%" src="screenshots/02-onboarding-step2-fitness-goal.png" alt="Step 2: Goal">
-  <img width="100%" src="screenshots/03-onboarding-step3-body-measurements.png" alt="Step 3: Measurements">
-  <img width="100%" src="screenshots/04-onboarding-step4-activity-level.png" alt="Step 4: Activity">
-  <img width="100%" src="screenshots/05-onboarding-step5-equipment.png" alt="Step 5: Equipment">
-  <img width="100%" src="screenshots/06-onboarding-step6-workout-frequency.png" alt="Step 6: Frequency">
-  <img width="100%" src="screenshots/07-onboarding-step7-dietary-preferences.png" alt="Step 7: Diet">
-  <img width="100%" src="screenshots/08-onboarding-complete-ready.png" alt="Complete: Ready">
+### Complete App Experience - All 13 Screenshots
+<div>
+  <img width="32%" src="screenshots/01-onboarding-step1-name.png" alt="Onboarding 1">
+  <img width="32%" src="screenshots/02-onboarding-step2-fitness-goal.png" alt="Onboarding 2">
+  <img width="32%" src="screenshots/03-onboarding-step3-body-measurements.png" alt="Onboarding 3">
+  
+  <img width="32%" src="screenshots/04-onboarding-step4-activity-level.png" alt="Onboarding 4">
+  <img width="32%" src="screenshots/05-onboarding-step5-equipment.png" alt="Onboarding 5">
+  <img width="32%" src="screenshots/06-onboarding-step6-workout-frequency.png" alt="Onboarding 6">
+  
+  <img width="32%" src="screenshots/07-onboarding-step7-dietary-preferences.png" alt="Onboarding 7">
+  <img width="32%" src="screenshots/08-onboarding-complete-ready.png" alt="Onboarding Complete">
+  <img width="32%" src="screenshots/09-progress-screen.png" alt="Progress">
+  
+  <img width="32%" src="screenshots/10-home-dashboard-ai-coach.png" alt="Dashboard">
+  <img width="32%" src="screenshots/11-workout-duration-selection.png" alt="Workout">
+  <img width="32%" src="screenshots/12-full-body-workout-details.png" alt="Workout Details">
+  
+  <img width="32%" src="screenshots/13-settings-screen.png" alt="Settings">
 </div>
 
----
-
-### 🏠 Main Dashboard
-**Your AI-powered health command center**
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 20px 0;">
-  <img width="100%" src="screenshots/10-home-dashboard-ai-coach.png" alt="Home Dashboard">
-  <img width="100%" src="screenshots/09-progress-screen.png" alt="Progress Screen">
-</div>
-
----
-
-### 💪 Workout Features
-**AI-generated plans with detailed guidance**
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 20px 0;">
-  <img width="100%" src="screenshots/11-workout-duration-selection.png" alt="Duration Selection">
-  <img width="100%" src="screenshots/12-full-body-workout-details.png" alt="Workout Details">
-</div>
-
----
-
-### ⚙️ Settings & Configuration
-**Complete control over your AI experience**
-
-<div style="display: grid; grid-template-columns: 1fr; gap: 8px; margin: 20px 0;">
-  <img width="100%" src="screenshots/13-settings-screen.png" alt="Settings">
-</div>
-
----
-
-### 📸 Full Gallery
-All 13 production screenshots organized in the [`/screenshots`](screenshots/) folder
+**7-step onboarding → Dashboard → Progress → Workouts → Settings**
 
 </div>
 
